@@ -1,7 +1,6 @@
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
-//Briana Peppers
 /*Purpose:maintains a list of records containing names and phone numbers,
  *prompts user to manipulate records
  *Algorithm:Create and display a menu of commands. Allow user input to be used a calling
@@ -10,7 +9,6 @@ import java.util.Scanner;
  *Input:user commands
  *Output:execution of commands
  * 
- *All scanner input should appear bold
  *current record = last record added
  */
 class First{
@@ -49,7 +47,7 @@ class phone implements Comparable{
 	}
 	
 }
-public class phonedir {
+public class directory {
 	static String format1 = "\\d{10}";
 	static String format2 = "(?:\\d{3}-){2}\\d{4}";
 	static String format3 = "\\(\\d{3}\\)\\d{3}-?\\d{4}";
